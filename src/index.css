@@ -7,3 +7,29 @@ box-sizing: border-box;
   margin: 0;
   box-sizing: inherit;
 }
+
+.button__group {
+  display: flex;
+  gap: 10px;
+  margin: 20px 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #152ef1;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+ul {
+  padding: 20px;
+}
+
+li {
+  list-style: none;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 4px;
+}
