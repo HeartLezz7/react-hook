@@ -9,16 +9,14 @@ function App() {
   const [category, SetCategory] = useState("");
   const [count, setCount] = useState(0);
 
-  // Syntax : useEffect(setUp,dependenciesAttay)
+  // Syntax : useEffect(setUp,dependenciesArray)
+  // When useEffect work
+  // => 1.After Render
 
-  // # 1
+  // # 2 After First render (if dependeciesArray is emptyArray)
   // useEffect(() => {
-  //   console.log("## 1 Effect Hook - Every render, rerender");
-  // }, );
-  // # 2 After First render
-  useEffect(() => {
-    console.log("Only first render");
-  }, []);
+  //   console.log("Run, Only first render");
+  // }, []);
 
   // ### 3 : firstRender , Rerender with category change
   useEffect(() => {
